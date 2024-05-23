@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+}
+.container {
+    width: 1000px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.722);
+}
+.arrow {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 100px;
+    height: 90px;
+}
+
+.area {
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border-radius: 2px solid black;
+    margin: 20px;
+    font-size: 20px;
+    background-color: #B51B75;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    background-color: #B51B75;
+}
